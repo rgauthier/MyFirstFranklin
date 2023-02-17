@@ -14,7 +14,7 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: #8f6441;
+  --background-color: #896f59;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #000;
@@ -207,6 +207,7 @@ main img {
 @media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
+    padding-top: 0;
   }  
 }
 
