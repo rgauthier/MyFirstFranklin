@@ -1,0 +1,44 @@
+#environemnt-table,
+#admin-user-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #environemnt-table td, #environemnt-table th,
+  #admin-user-table td, #admin-user-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #environemnt-table tr:nth-child(even),
+  #admin-user-table tr:nth-child(even) { 
+    background-color: #f2f2f2;
+  }
+  
+  #environemnt-table tr:hover, 
+  #admin-user-table tr:hover { 
+    background-color: #ddd;
+  }
+  
+  #environemnt-table th,
+  #admin-user-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aaaa;
+    color: white;
+  }
+
+  #add-user-div {
+    display: flex;
+  }
+
+  #add-user-input {
+    font-size: initial;
+    padding-right: 10px;
+  }
+
+  #remove-user-button {
+    margin: 0;
+  }
